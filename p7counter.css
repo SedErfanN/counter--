@@ -1,0 +1,42 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+p#number{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 100px;
+}
+button{
+    width: 70px;
+    outline: 0;
+    border:0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    opacity: 0.8;
+}
+button:first-of-type{
+    border-color:red ;
+}
+button:last-of-type{
+    border-color: green;
+}
+button:hover{
+    color: rgb(255, 115, 0);
+    font-size: large;
+    opacity: 1;
+}
